@@ -19,7 +19,6 @@ function MenuItem({ title, imageUrl, size, linkUrl, match, history }) {
         <h1 className="title">{title.toUpperCase()}</h1>
         <span className="subtitle">SEE MORE</span>
       </div>
-      @
     </div>
   );
 }
