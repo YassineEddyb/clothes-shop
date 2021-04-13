@@ -11,6 +11,13 @@
   right: 40px;
   z-index: 5;
 
+  .empty-massege {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: capitalize;
+  }
+
   .cart-items {
     height: 240px;
     display: flex;
