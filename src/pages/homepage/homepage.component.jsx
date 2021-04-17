@@ -1,12 +1,13 @@
 import React from "react";
 import Directory from "../../component/directory/directory.component.jsx";
-import "./homepage.style.scss";
+
+import { Homepage } from "./homepage.styles";
 
 function HomePage() {
   return (
-    <div className="homepage">
+    <Homepage>
       <Directory />
-    </div>
+    </Homepage>
   );
 }
 
