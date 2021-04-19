@@ -17,7 +17,7 @@ export const selectCollections = createSelector(
 
 export const selectCollection = (collectionUrlParam) =>
   createSelector([selectCollections], (collections) =>
-    collections.find(
-      (collection) => collection.id === COLLECTIONS_ID_MAP[collectionUrlParam]
+    collections.find((collection) =>
+      collection ? collection.title.toLowerCase() === collectionUrlParam : null
     )
   );
