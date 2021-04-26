@@ -11,5 +11,14 @@
   .preview {
     display: flex;
     justify-content: space-between;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
   }
 }

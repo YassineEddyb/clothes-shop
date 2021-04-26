@@ -22,10 +22,14 @@ export const Options = styled.ul`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  @media screen and (max-width: 600px) {
+    width: 80%;
+  }
 `;
 
 export const OptionLink = styled(Link)`
-  padding: 10px 15px;
+  padding: 10px;
   color: black;
   cursor: pointer;
   text-decoration: none;

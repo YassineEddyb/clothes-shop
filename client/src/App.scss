@@ -1,6 +1,12 @@
 .App {
   width: 90%;
   margin: auto;
+
+  @media screen and (max-width: 600px) {
+    .App {
+      width: 95%;
+    }
+  }
 }
 
 * {

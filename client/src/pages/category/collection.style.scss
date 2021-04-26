@@ -12,8 +12,19 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 
-    & .collection-item {
+    .collection-item {
       margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .items {
+      grid-template-columns: 1fr 1fr;
+
+      .callection-item {
+        width: unset;
+        margin-right: 0;
+      }
     }
   }
 }

@@ -43,12 +43,11 @@ const getGuttonStyles = (props) => {
 };
 
 export const CustomButtonContainer = styled.button`
-  min-width: 165px;
-  width: auto;
+  width: 150px;
   height: 50px;
   letter-spacing: 0.5px;
   line-height: 50px;
-  padding: 0 35px 0 35px;
+  padding: 0 30px 0 30px;
   font-size: 15px;
   border: none;
   color: white;
