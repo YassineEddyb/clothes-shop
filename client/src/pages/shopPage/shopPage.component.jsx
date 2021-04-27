@@ -10,10 +10,10 @@ import {
   selectIsFetching,
   selectCollectionsLoaded,
 } from "../../redux/shop/shop.selectors";
-import Spinner from "../../component/spinner/spinner.component";
+import WithSpinner from "../../component/with-spinner/with-spinner.component";
 
-const CollectionsOverviewWithSpinner = Spinner(CollectionsOverview);
-const CollectionPageWithSpinner = Spinner(CollectionPage);
+const CollectionsOverviewWithSpinner = WithSpinner(CollectionsOverview);
+const CollectionPageWithSpinner = WithSpinner(CollectionPage);
 
 const ShopPage = ({ fetchCollectionsStart, match, isFetching, isLoaded }) => {
   useEffect(() => {

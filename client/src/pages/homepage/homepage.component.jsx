@@ -4,6 +4,7 @@ import Directory from "../../component/directory/directory.component.jsx";
 import { Homepage } from "./homepage.styles";
 
 function HomePage() {
+  throw "error";
   return (
     <Homepage>
       <Directory />

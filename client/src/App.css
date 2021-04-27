@@ -1,0 +1,16 @@
+.App {
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .App .App {
+    width: 95%;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=App.css.map */
